@@ -4,12 +4,15 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
-.container{
+.container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg,blue,black,purple);
+    background-image: url("images/background.png.avif");
+    background-size: cover;
+    background-position: center center; 
     padding: 10px;
 }
+
 .todoapp{
     width: 100%;
     max-width: 540px;
@@ -51,7 +54,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #0080ff;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
