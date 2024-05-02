@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    user-select: none;
 }
 
 .todoapp h2 img{
@@ -58,4 +59,18 @@ button{
 }
 ul li{
     list-style: none;
+    font-size: 17px;
+    padding:12px 8px 12px 50px;
+    user-select: none;
+}
+
+ul li::before{
+    content: '';
+    position:absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+
 }
